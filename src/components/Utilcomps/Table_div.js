@@ -3,7 +3,7 @@ import { coins as data } from "./utilData/datos";
 
 export default function Table_div (props) {         // se le pasan los datos al componente por medio de props un JSON
     //console.log(props.id);
-    if (props.length == 1) { return (<div> No hay Datos para mostrar </div>) };
+    if (props.length < 1) { return (<div> No hay Datos para mostrar </div>) };
     const headerData = Object.keys(props.data[0]);  // saca los encabezados del primer objeto
     //console.log(headerData);
     //console.log (props);

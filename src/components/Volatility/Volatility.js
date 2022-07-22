@@ -43,8 +43,7 @@ const Volatility = () => {
         <div>
         <Table_div  data={volatility}/> 
         {/*console.log(`estas son las cryptos ${cryptos}`)*/}        
-        <button onClick={() => dispatch(getVolatilityCoins())} > ACTUALIZAR VOLATILIDAD CRYPTOS </button> 
-        {/*update()*/}               
+        <button onClick={() => dispatch(getVolatilityCoins())} > ACTUALIZAR VOLATILIDAD CRYPTOS </button>           
         </div>
     )
 }

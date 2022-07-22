@@ -6,7 +6,7 @@ import { volatilidad } from "../../components/Utilcomps/utilData/datos";
 
 const initialState = {
     cryptos: data,
-    volatility: data,
+    volatility: volatilidad,
 }
 
 const rootReducer = (state = initialState, action) =>   {
